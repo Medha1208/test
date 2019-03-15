@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Education_LOB]">
+  <test name="PositiveTest(failed)">
+    <classes>
+      <class name="Education_LOB.Education_LOB.ReturnReceived">
+        <methods>
+          <include name="receivedReturn"/>
+        </methods>
+      </class> <!-- Education_LOB.Education_LOB.ReturnReceived -->
+    </classes>
+  </test> <!-- PositiveTest(failed) -->
+</suite> <!-- Failed suite [Education_LOB] -->

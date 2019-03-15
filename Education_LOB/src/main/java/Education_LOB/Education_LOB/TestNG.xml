@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Education_LOB">
+  <test name="PositiveTest">
+     <classes>
+        <class name="Education_LOB.Education_LOB.SalesOrder" />    
+        <class name="Education_LOB.Education_LOB.Fullfill" />
+        <class name="Education_LOB.Education_LOB.BillSO" />
+        <class name="Education_LOB.Education_LOB.AcceptPayment" />
+        <class name="Education_LOB.Education_LOB.ReturnReceived" />       
+     </classes>
+   </test>
+</suite>

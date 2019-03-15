@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Trade sales_order]">
+  <test name="Positive_Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Trade_SO.Bill">
+        <methods>
+          <include name="invoice"/>
+        </methods>
+      </class> <!-- Trade_SO.Bill -->
+      <class name="Trade_SO.Fullfill">
+        <methods>
+          <include name="validation"/>
+        </methods>
+      </class> <!-- Trade_SO.Fullfill -->
+    </classes>
+  </test> <!-- Positive_Test(failed) -->
+</suite> <!-- Failed suite [Trade sales_order] -->
